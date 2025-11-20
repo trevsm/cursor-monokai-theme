@@ -1,0 +1,59 @@
+{
+  "name": "cursor-monokai-theme",
+  "version": "0.5.0",
+  "description": "A beautiful dark theme combining Monokai and One Dark",
+  "author": "trevsm",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/trevsm/cursor-monokai-theme.git"
+  },
+  "keywords": [
+    "cursor",
+    "cursor",
+    "theme",
+    "monokai",
+    "onedark",
+    "dark-theme"
+  ],
+  "engines": {
+    "vscode": "^1.13.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Cursor Monokai",
+        "uiTheme": "vs-dark",
+        "path": "./themes/CursorMonokai-color-theme.json"
+      }
+    ]
+  },
+  "configuration": {
+    "title": "Cursor Monokai Theme",
+    "properties": {
+      "cursorMonokai.boldKeywords": {
+        "type": "boolean",
+        "default": true,
+        "description": "Enable bold keywords"
+      },
+      "cursorMonokai.italicComments": {
+        "type": "boolean",
+        "default": true,
+        "description": "Enable italic comments"
+      }
+    }
+  },
+  "scripts": {
+    "build": "node build.js",
+    "package": "vsce package",
+    "publish": "vsce publish"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "vsce": "^2.15.0"
+  }
+}
+

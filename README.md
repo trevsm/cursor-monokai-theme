@@ -1,24 +1,36 @@
-# One Monokai Theme
+# Cursor Monokai Theme
 
-A cross between Monokai and One Dark theme
+A beautiful dark theme for Cursor IDE - A cross between Monokai and One Dark themes
 
-[![made in nigeria](https://img.shields.io/badge/made%20in-nigeria-008751.svg?style=flat-square)](https://github.com/acekyd/made-in-nigeria)  [![Version](https://vsmarketplacebadges.dev/version/azemoh.one-monokai.svg)](https://marketplace.visualstudio.com/items?itemName=azemoh.one-monokai) [![Installs](https://vsmarketplacebadges.dev/installs/azemoh.one-monokai.svg)](https://marketplace.visualstudio.com/items?itemName=azemoh.one-monokai) [![Ratings](https://vsmarketplacebadges.dev/rating/azemoh.one-monokai.svg)](https://marketplace.visualstudio.com/items?itemName=azemoh.one-monokai) [![GitHub stars](https://img.shields.io/github/stars/azemoh/vscode-one-monokai.svg?style=social&label=Star&maxAge=2592000)](https://github.com/azemoh/vscode-one-monokai)
-
+> **Note:** This is a modified version of the original [One Monokai Theme](https://github.com/azemoh/vscode-one-monokai) by Joshua Azemoh, customized and optimized for Cursor IDE by trevsm.
 
 ## Install
 
-press `ctl/command + p` to launch quick open then run
-```
-ext install one-monokai
-```
+### From Cursor IDE Extensions
+
+This theme is optimized for Cursor IDE and can be installed from the Open VSX Registry:
+
+1. Open Cursor IDE
+2. Go to Extensions (Ctrl+Shift+X)
+3. Search for "Cursor Monokai Theme" by trevsm
+4. Click Install
+
+### Manual Installation from VSIX
+
+1. Download the `.vsix` file from the [releases page](https://github.com/trevsm/cursor-monokai-theme/releases)
+2. In Cursor IDE, go to Extensions → "..." → "Install from VSIX..."
+3. Select the downloaded `.vsix` file
 
 ## Screenshot
-Screenshot of Ruby and JavaScript
 
-![Theme Screenshot](screenshot-v0.2.0.png)
+Screenshot of TypeScript and React
 
-If you like this theme checkout [One Dark Theme](https://marketplace.visualstudio.com/items?itemName=azemoh.theme-onedark)
+![Theme Screenshot](screenshot-v0.1.0.png)
 
+## Credits
+
+This theme is based on the original [One Monokai Theme](https://github.com/azemoh/vscode-one-monokai) by [Joshua Azemoh](https://github.com/azemoh), which combines elements from Monokai and One Dark themes.
 
 ## Change log
-You can take a look at the change log [here](https://github.com/azemoh/vscode-one-monokai/blob/master/CHANGELOG.md)
+
+You can take a look at the change log [here](CHANGELOG.md)
