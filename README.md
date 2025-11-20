@@ -25,7 +25,7 @@ This theme is optimized for Cursor IDE and can be installed from the Open VSX Re
 
 Screenshot of TypeScript and React
 
-![Theme Screenshot](screenshot-v0.1.0.png)
+![Theme Screenshot](screenshot-v0.5.0.png)
 
 ## Credits
 
